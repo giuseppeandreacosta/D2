@@ -64,13 +64,16 @@ h3 {
 .secondcontent {
     background-color: white;
     margin: 20px;
-
-}
-
-.secondcontent p {
-    
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
 }
+
+#text 
+{display: flex;
+order: -1;}
 
 .secondcontent img {
     
