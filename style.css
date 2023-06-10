@@ -6,10 +6,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E3E6E6;
+    width: 100%;
+    font-weight: 600;
 }
 
 .logo {
     background-color: #131921;
+    
 
 }
 
@@ -18,6 +21,7 @@ body {
     margin-left: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 ul {
@@ -46,12 +50,22 @@ h3 {
 
 .content {
     background-image: url(assets/img/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:  100%;
     color: white;
     margin: 30px 30px;
     text-align: center;
+    height: 150px;
+    
+    
 
 }
 
+.content h1{
+    padding:40px;
+}
+    
 
 
 
@@ -60,23 +74,29 @@ h3 {
 
 .secondcontent {
     background-color: white;
-    margin: 20px;
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-
-
+    margin: 20px 20px;
+    padding: 20px 20px;
 }
 
+#text {
+    padding:10px 10px;
+}
 
+#text a {
+    padding-left: 15px;
+}
 
-.secondcontent img {
-    object-fit: cover;
-    border-radius: 15px;
-    height: 200px;
-    width: 200px;
+.image-container {   
+margin: 10px 20px;
+display: flex;
+justify-content: space-evenly;
+   
+}
 
-    margin: 20px;
+.image-container img {
+    border-radius: 20px;
+    height: 350px;
+    width: 250px;
 }
 
 .lastcontainer {
@@ -108,4 +128,8 @@ h3 {
 .amazonlogo img {
     width: 150px;
     margin: 20px;
+}
+
+.sound {
+    margin-bottom: 15px;
 }
